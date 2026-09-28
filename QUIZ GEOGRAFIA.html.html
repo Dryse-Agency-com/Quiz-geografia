@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>QUIZ GEOGRAFIA</title>
+    <meta name="description" content=" Um Quiz interativo">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <h1>QUIZ INTERATIVO DE GEOGRAFIA</h1>
+         <h2>Teste seus conhecimentos e se surpreenda!</h2>
+         <p><strong>Divirta-se</strong> respondendo perguntas e adquirindo mais conhecimento!</p>
+    </header>
+    <main>
+        <!--descrição-->
+        <section>
+            <h2>SOBRE O QUIZ: <br> Este quiz interativo de <abbr title="EStudo Da Terra">Geografia</abbr> foi desenvolvido para testar seus conhecimentos de forma rápida, dinâmica e desafiadora. Enfrente perguntas sobre diversos temas da geografia mundial e brasileira.</h2>
+        </section>
+        <!--pergunta 1: múltipla escolha-->
+        <section>
+            <h2>Pergunta 1: Qual é o maior oceano do planeta?</h2>
+            <form>
+                <input type="radio"  value="Oceano Atlântico" id="p1a" name="Pergunta1">
+                <label for="p1a">Oceano Atlântico</label> <br>
+                <input type="radio"  value="Oceano Índico" id="p1b" name="Pergunta1">
+                <label for="p1b">Oceano Índico</label> <br>
+                <input type="radio"  value="Oceano Pacífico" id="p1c" name="Pergunta1">
+                <label for="p1c">Oceano Pacífico</label> <br>
+                <input type="radio"  value="Oceano Ártico" id="p1d" name="Pergunta1">
+                <label for="p1d">Oceano Ártico</label> <br>
+            </form>
+
+        </section>
+        <!--Pergunta 2: texto-->
+        <section>
+            <h2>Qual a Capital Da Japão?</h2>
+            <form>
+                <input type="text" id="p2" name="Pergunta2" placeholder="Digite sua resposta...">
+            </form>
+        </section>
+        <!--Pergunta 3: Senha-->
+        <section>
+        <h2>Crie um Nome Para um País</h2>
+        <form>
+            <input type="password" id="p3" name="Pergunta3" placeholder="Digite o Nome...">
+        </form>
+        </section>
+        <!--Pergunta 4: Data-->
+        <section>
+            <h2>Em que ano o Brasil foi descoberto pelos Portugueses?</h2>
+            <form>
+                <input type="date" id="p4" name="Pergunta4">
+            </form>
+        </section>
+        <!--Pergunta 5: Seleção Múltipla-->
+        <section>
+            <h2>Quais dos elementos abaixo são considerados biomas brasileiros?</h2>
+            <h3><strong>Selecione as alternativas corretas:</strong></h3>
+            <form>
+                <input type="checkbox" id="p5a" name="Pergunta5" value="Amazônia">
+                <label for="p5a">Amazônia</label><br>
+
+                <input type="checkbox" id="p5b" name="Pergunta5" value="Cerrado">
+                <label for="p5b">Cerrado</label><br>
+
+                <input type="checkbox" id="p5c" name="Pergunta5" value="Savana do Saara">
+                <label for="p5c">Savana do Saara</label><br>
+
+                <input type="checkbox" id="p5d" name="Pergunta5" value="Caatinga">
+                <label for="p5d">Caatinga</label><br>
+
+                <input type="checkbox" id="p5e" name="Pergunta5" value="Himalaia">
+                <label for="p5e">Himalaia</label><br>
+             </form>
+        </section>
+        <!--Pergunta 6: Upload-->
+        <section>
+            <h2>Faça Upload da Bandeira do Seu país favorito</h2>
+            <form> 
+                <input type="file" id="p6" name="Pergunta6">
+            </form>
+        </section>
+        <!--Pergunta 7: Menu suspenso-->
+        <section>
+            <h2>Complete a frase escolhendo a opção correta</h2>
+            <h3><strong>O maior rio do mundo em volume de água é o __________.</strong></h3>
+            <form>
+                <select name="Pergunta7" id="p7">
+                    <option value="Opções">Opções</option>
+                    <option value="Nilo">Nilo</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Yangtzé">Yangtzé</option>
+                </select>
+            </form>
+        </section>
+        <!--Pergunta 8: Imagem-->
+        <section>
+            <h2>Observe a imagem abaixo e responda:</h2>
+                <figure>
+                <img src="https://www.greenpeace.org/static/planet4-brasil-stateless/2022/09/61edcdd5-gp1sxnrt_-1.jpg" alt="IMG">
+                <figcaption>Imagem De Algum Bioma</figcaption>
+                </figure>
+                <h3><strong>Qual bioma brasileiro está representado na imagem?</strong></h3>
+                <form>
+                    <input type="radio"  value="Cerrado" id="p8a" name="Pergunta8">
+                        <label for="p8a">Cerrado</label> <br>
+                    
+                    <input type="radio"  value="Pantanal" id="p8b" name="Pergunta8">
+                        <label for="p8b">Pantanal</label> <br>
+                
+                    <input type="radio"  value="Amazônia" id="p8c" name="Pergunta8">
+                        <label for="p8c">Amazônia</label> <br>
+                
+                    <input type="radio"  value="Caatinga" id="p8d" name="Pergunta8">
+                        <label for="p8d">Caatinga</label> <br>
+                </form>
+        </section>
+        <!--Tabela de pontuação-->
+        <section>
+            <h2>Tabela De Pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não Desita, cada erro é uma oportunidade nova de aprender!</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2-4</td>
+                            <td>Teve um resultado razoável, melhore!</td>
+                        </tr>
+
+                        <tr>
+                            <td>4-6</td>
+                            <td>Excelente! Resultado acima da média</td>
+                        </tr>
+
+                        <tr>
+                            <td>6-8</td>
+                            <td>Perfeito! Você acertou mais de 90% das questões!!!</td>
+                        </tr>   
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa Sorte na Próxima! Continue Estudando hein ksks</td>
+                        </tr>
+                    </tfoot>
+                </table>
+        </section>
+        <!--Lista de Respostas-->
+        <section>
+            <h2>Verifique Suas Respostas</h2>
+            <details>
+                <summary>Respostas</summary>
+            <ol>1- Oceano Pacífico</ol>
+            <ol>2- Tóquio</ol>
+            <ol>3- Seu País</ol>
+            <ol>4- 1500</ol>
+            <ol>5 -Amazônia, Cerrado e Caatinga</ol>
+            <ol>6- sua imagem</ol>
+            <ol>7- Amazonas</ol>
+            <ol>8- Amazônia</ol>
+            </details>
+        </section>
+        
+        <!--Formulário de Feedback-->
+        <section>
+            <h2>Envie Seu Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de Contato</legend>
+                <label for="nome">Escreva seu Nomee:</label>
+                <input type="text" id="nome" name="nome"><br>
+                
+                
+                <label for="Email">Escreva o seu Email: </label>
+                <input type="email" id="Email" name="Email"><br>
+                <h3>Isso é um teste, não Escreva seu email</h3>
+
+
+                <label for="Comentários">Comentários:</label><br>
+                    <textarea name="Comentários" id="Comentários" rows="4" cols="50" placeholder="Digite seu Comentários"></textarea>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="paragrafo-footer">&copy Quiz De Geografia, Feito Por: Renatto Souza</p>
+        <p class="paragrafo-footer"> Para mais Informações <a href="https://www.instagram.com/renatto.sowza/" target="_blank">CLIQUE AQUI</a> - Meu instagram</p>
+        <button onclick="alert('FEEDBACK ENVIADO')">envie seu Feedback</button>
+    </footer>
+</body
+</html> 
